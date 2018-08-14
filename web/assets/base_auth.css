@@ -16,6 +16,25 @@
     left: 0px;
 }
 
+.header {
+    padding-left: 70px;
+    position: relative;
+}
+
+.logo {
+    float: left; 
+    height: 100%;
+    padding-right: 50px;
+}
+
+.header-link {
+    padding: 25px 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    display: inline-block;
+}
+
 .hcenter {
     margin: auto;
 }

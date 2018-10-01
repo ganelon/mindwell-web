@@ -62,7 +62,15 @@ div.post-add-icon:hover {
     margin-left: auto;
 }
 
+.post-title {
+    word-wrap: break-word; /* Internet Explorer */
+    overflow-wrap: break-word;
+    display: inline-block;
+    width: 100%;
+}
+
 .post-content, .comment-content {
+    word-wrap: break-word; /* Internet Explorer */
     overflow-wrap: break-word;
     text-align: justify;
 }
@@ -107,4 +115,22 @@ div.post-add-icon:hover {
 
 li.cat-list__item > a {
     text-transform: none;
+}
+
+.comment-rating {
+    color: #9a9fbf;
+}
+
+.markdown-for-editor {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 1em;
+}
+
+.markdown-for-editor a {
+    color: #9a9fbf;
+}
+
+.markdown-for-editor a:hover {
+    color: #ff5e3a; 
 }
